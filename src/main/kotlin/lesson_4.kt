@@ -32,3 +32,5 @@ fun main() {
 const val AGE_OF_MAJORITY = 18
 
 const val DRUGOE_CHISLO = 15
+
+const val newText = "Novoe predlojenie"
