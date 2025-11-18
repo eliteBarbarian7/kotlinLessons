@@ -26,8 +26,16 @@ fun main() {
 
     val anotherItog = userAge in DRUGOE_CHISLO..AGE_OF_MAJORITY
     println(anotherItog)
-}
 
+
+    val peremennayDlyWhen = when(userAge){
+        100 -> "ты ввёл число сто"
+        200 -> "you wrote number twohundred"
+        else -> "ты другое число ввёл"
+    }
+
+    println(peremennayDlyWhen)
+}
 
 const val AGE_OF_MAJORITY = 18
 
