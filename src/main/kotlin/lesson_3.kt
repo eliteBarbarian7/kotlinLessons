@@ -12,4 +12,6 @@ fun main() {
 
     // интерполяция строк
     println("What is $zdarova your main question? \'${5 + chislo}\'")
+
+    println("new izmenenia")
 }
